@@ -1,0 +1,194 @@
+body {
+  background-color: #202020;
+  height: 100%;
+  margin: 0;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.fixed-header {
+  background: -webkit-gradient(linear, center top, center bottom, from(#404040), to(#2A2A2A));
+	width: 100%;
+  height: auto;
+	font-size: 30px;
+	-webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.50);
+	box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.50);
+  top: 0;
+  position: fixed;
+  z-index: 99999;
+}
+
+.icon-svg {
+  padding-top: 8px;
+  padding-right: 8px;
+  float: right;
+}
+
+.card-1 {
+	background: -webkit-gradient(linear, center bottom, center top, from(#403AAA), to(#3495FE));
+	width: auto;
+	height: 50%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+	margin-left: 64px;
+  margin-right: 64px;
+  padding-bottom: 32px;
+	-webkit-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+	-moz-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+	box-shadow: 5px 5px 35px -8px rgba(0, 0, 0, 0.3);
+}
+
+.card-2 {
+	background: -webkit-gradient(linear, center bottom, center top, from(#7c4fd1), to(#c96bff));
+	width: auto;
+	height: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+	margin-left: 64px;
+  margin-right: 64px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+	-webkit-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+	-moz-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+	box-shadow: 5px 5px 35px -8px rgba(0, 0, 0, 0.3);
+}
+
+.card-header-1 {
+  background: #303030;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 48px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-header-2 {
+  background: #303030;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.text-card-header {
+	color: #FFFFFF;
+	text-align: left;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.text-centered {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.text-left {
+  color: #FFFFFF;
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.text-header {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Comfortaa", sans-serif;
+  float: left;
+  padding-left: 20px;
+}
+
+.text-footer {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+}
+
+@-webkit-keyframes fade-in-bck {
+  0% {
+    -webkit-transform: translateZ(80px);
+            transform: translateZ(80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bck {
+  0% {
+    -webkit-transform: translateZ(80px);
+            transform: translateZ(80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.fade-in-bck {
+  -webkit-animation: fade-in-bck 1.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-bck 1.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.focus-in-contract {
+	-webkit-animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
