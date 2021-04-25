@@ -65,6 +65,24 @@ p {
   margin-bottom: 32px;
 	margin-left: 64px;
   margin-right: 64px;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+	-webkit-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+	-moz-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+	box-shadow: 5px 5px 35px -8px rgba(0, 0, 0, 0.3);
+}
+
+.card-3 {
+	background: -webkit-gradient(linear, center bottom, center top, from(#9045d6), to(#ee6bff));
+	width: auto;
+	height: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+	margin-left: 64px;
+  margin-right: 64px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 0px;
@@ -87,7 +105,7 @@ p {
   border-bottom-right-radius: 0px;
 }
 
-.card-header-2 {
+.card-header-2_3 {
   background: #303030;
   padding-top: 4px;
   padding-bottom: 4px;
